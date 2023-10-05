@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add echarts-for-react
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Program Files\PuTTY\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.1\bin;F:\1.Task\GIS_Task\osm2pgsql-bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;D:\geoserver-2.22.3-bin\bin\startup;F:\2.Work\GIS_work\import_GDBFile_postgis\ogr2ogr_bin;C:\Program Files\PostgreSQL\15\bin;C:\Users\Administrator\composer;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;E:\xampp_7.4\php;%OSGEO4W_ROOT%\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Ruby32-x64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.1\bin;;F:\1.Task\GIS_Task\osm2pgsql-bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;D:\geoserver-2.22.3-bin\bin\startup;F:\2.Work\GIS_work\import_GDBFile_postgis\ogr2ogr_bin;C:\Program Files\PostgreSQL\15\bin;C:\Users\Administrator\composer;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;E:\xampp_7.4\php
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\2.Work\antd_pro_umi\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "rmonet1203 <rmonet1203@gmail.com>",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "format": "prettier --cache --write .",
+      "prepare": "husky install",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.0.1",
+      "@ant-design/pro-components": "^2.4.4",
+      "@umijs/max": "^4.0.76",
+      "antd": "^5.4.0",
+      "firebase": "^10.3.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.33",
+      "@types/react-dom": "^18.0.11",
+      "husky": "^8.0.3",
+      "lint-staged": "^13.2.0",
+      "prettier": "^2.8.7",
+      "prettier-plugin-organize-imports": "^3.2.2",
+      "prettier-plugin-packagejson": "^2.4.3",
+      "typescript": "^5.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
